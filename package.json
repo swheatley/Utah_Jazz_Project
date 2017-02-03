@@ -1,0 +1,24 @@
+{
+  "name": "utah-jazz-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swheatley/Utah_Jazz_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swheatley/Utah_Jazz_Project/issues"
+  },
+  "homepage": "https://github.com/swheatley/Utah_Jazz_Project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
