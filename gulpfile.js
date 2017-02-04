@@ -21,9 +21,7 @@ var runSequence = require('run-sequence');
 
 gulp.task('sass', function(){
   return gulp.src('app/scss/**/*.scss')
-    .pipe(sass({
-         includePaths: [fontAwesome.scssPath]
-    })) 
+    .pipe(sass()) 
     .pipe(gulp.dest('app/css'))
     .pipe(browserSync.reload({
       stream: true
@@ -84,4 +82,8 @@ gulp.task('browserSync', function() {
     },
   })
 })
+
+
+
+
 
