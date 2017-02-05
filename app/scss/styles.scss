@@ -2,12 +2,12 @@
 .navbar-wrapper-section{
   display: flex;
   flex-direction: column;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Bree Serif', serif;
     .top-nav{
-      //border: solid 5px deeppink;
       background-color: rgb(255, 255, 255);
       display: flex;
       justify-content: space-around;
+      flex-wrap: wrap;
       max-height: 40px;
         .top-header-items{
           align-items: center;
@@ -16,11 +16,12 @@
           .img-item{
             position: absolute;
             left: 20px;
-            top: 25px;
+            top: 20px;
             #nba-logo{
             width: 90px;
             height: 15px;
-              }
+            }
+
 
           }
           .nav-item-list{
@@ -45,33 +46,41 @@
         }
       }
       .main-nav{
-        //border: solid 5px blue;
         background-color: rgb(13, 34, 63);
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
+        .jazz-item{
+        #jazz-logo{
+          height: 92px;
+          width: 141px;
+          }
+        }
         .header-nav-items{
           display: flex;
-          justify-content: center;
-          list-style-type: none;
-          #jazz-logo{
-            height: 92px;
-            width: 141px;
-          }
+          .main-item-list{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
           .main-items{
-            padding-left: 1%;
+            margin-left: 30px;
             a{
               color: rgb(255,255,255);
               text-decoration: none;
 
             }
             :hover{
-              background-color: #F9A11E;
-              padding: 10px;
-              border-radius: 5%;
+              // background-color: #F9A11E;
+              // //padding: 10px;
+              // border-radius: 5%;
               }
 
             }
+
+          }
           }
           .social-icon-wrapper{
             .social-icon-list{
@@ -112,19 +121,23 @@
 }
 /* ------ Main Content Section ------- */
 .main-content{
+    background-image: url("../images/jazz_court.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
     // display: flex;
     // justify-content: center;
-    border: solid 5px black;
+    //border: solid 5px black;
     .suites{
-      background-color: #F9A11E;
+      // background-color: #F9A11E;
       height: 300px;
     }
     .lexus-club{
-      background: #2b5737;
+      // background: #2b5737;
       height: 300px;
     }
     .executives-club{
-      background-color: rgb(13, 34, 63);
+      // background-color: rgb(13, 34, 63);
       height: 300px;
     }
 
@@ -134,18 +147,22 @@
 footer{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     fixed-height: 360px;
-    border: solid 5px purple;
+    //border: solid 5px purple;
 
     .main-footer{
         display: flex;
         background-color: rgb(13, 34, 63);
-        //max-height: 230px;
+        padding: 5%;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
     .bottom-footer{
-      display: flex;
       background: rgb(0,0,0);
-      //max-height: 155px;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 5%;
       p{
         color: rgb(255,255,255);
       }
