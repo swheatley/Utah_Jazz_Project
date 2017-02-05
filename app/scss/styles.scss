@@ -1,4 +1,9 @@
 /* ----- Navbar Styles------ */
+.page-container{
+  background-image: url("../images/jazz_court.jpg");
+  background-size: cover;
+  background-position: 15% 15%;
+  background-attachment: fixed;
 .navbar-wrapper-section{
   display: flex;
   flex-direction: column;
@@ -51,6 +56,12 @@
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
+
+        top:0;
+        width: 100%;
+        transition:all 0.5s;
+        position: relative;
+        z-index: 1;
         .jazz-item{
         #jazz-logo{
           height: 92px;
@@ -73,9 +84,9 @@
 
             }
             :hover{
-              // background-color: #F9A11E;
-              // //padding: 10px;
-              // border-radius: 5%;
+              background-color: #F9A11E;
+              padding: 10px;
+              border-radius: 5%;
               }
 
             }
@@ -93,7 +104,6 @@
                 .btn-social{
                   width: 20px;
                   height: 20px;
-                  // text-align: center;
                   font-size: 18px;
                   line-height: 45px;
 
@@ -108,6 +118,10 @@
                     }
 
                   }
+                  :hover{
+                    background-color: #153920;
+                    border: solid 3px white;
+                  }
 
                 }
               }
@@ -115,29 +129,33 @@
             }
           }
 
-
+        }
 
       }
-}
+    }
+  
+
 /* ------ Main Content Section ------- */
 .main-content{
-    background-image: url("../images/jazz_court.jpg");
-    background-position: center;
-    background-size: cover;
-    opacity: 0.7;
-    // display: flex;
-    // justify-content: center;
-    //border: solid 5px black;
     .suites{
-      // background-color: #F9A11E;
       height: 300px;
+      text-align: center;
+      text-transform: uppercase;
+
+
+
+
+
+
     }
     .lexus-club{
-      // background: #2b5737;
+      text-align: center;
+      text-transform: uppercase;
       height: 300px;
     }
     .executives-club{
-      // background-color: rgb(13, 34, 63);
+      text-align: center;
+      text-transform: uppercase;
       height: 300px;
     }
 
@@ -148,8 +166,7 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    fixed-height: 360px;
-    //border: solid 5px purple;
+    //fixed-height: 360px;
 
     .main-footer{
         display: flex;
@@ -159,12 +176,20 @@ footer{
         flex-wrap: wrap;
     }
     .bottom-footer{
+      align-items: center;
       background: rgb(0,0,0);
       display: flex;
+      flex-direction: column;
       flex-wrap: wrap;
-      padding: 5%;
+      letter-spacing: 2px;
+
+
       p{
         color: rgb(255,255,255);
+        padding-left: 5%;
+        padding-right: 5%;
+        line-height: 20px;
+
       }
       .turner-logo{
         color: rgb(255,255,255);
@@ -182,8 +207,7 @@ footer{
 
       }
     }
-
-    }
+  }
 
 /* ------- MEDIA QUERIES ------ */
 
