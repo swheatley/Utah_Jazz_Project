@@ -37,7 +37,8 @@
               color: #007ed9;
               text-decoration: none; }
             .page-container .navbar-wrapper-section .top-nav .top-header-items .nav-item-list .nba-items :hover {
-              text-decoration: underline; }
+              text-decoration: underline;
+              cursor: pointer; }
     .page-container .navbar-wrapper-section .main-nav {
       background-color: #0d223f;
       display: flex;
@@ -66,9 +67,8 @@
               color: white;
               text-decoration: none; }
             .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items :hover {
-              background-color: #F9A11E;
-              padding: 10px;
-              border-radius: 5%; }
+              color: #F9A11E;
+              cursor: pointer; }
       .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list {
         display: flex;
         list-style-type: none;
@@ -91,58 +91,109 @@
                 text-align: center; }
             .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list .social-items .btn-social :hover {
               background-color: #153920;
-              border: solid 3px white; }
+              border: solid 3px white;
+              cursor: pointer; }
 
 /* ------ Main Content Section ------- */
-.main-content .suites {
-  height: 300px;
-  text-align: center;
-  text-transform: uppercase; }
-
-.main-content .lexus-club {
-  text-align: center;
-  text-transform: uppercase;
-  height: 300px; }
-
-.main-content .executives-club {
-  text-align: center;
-  text-transform: uppercase;
-  height: 300px; }
+.main-content {
+  font-family: 'Bree Serif', serif; }
+  .main-content .suites {
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%; }
+    .main-content .suites .content-block {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 1%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-family: 'Bree Serif', serif;
+      margin-left: 8.5%;
+      margin-right: 8.5%;
+      padding: 5%; }
+  .main-content .lexus-club {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase; }
+    .main-content .lexus-club .content-block {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 1%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-family: 'Bree Serif', serif;
+      margin-left: 8.5%;
+      margin-right: 8.5%;
+      padding: 5%; }
+  .main-content .executives-club {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5%; }
+    .main-content .executives-club .content-block {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 1%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-family: 'Bree Serif', serif;
+      margin-left: 8.5%;
+      margin-right: 8.5%;
+      padding: 5%; }
 
 /* ----- Footer ---- */
 footer {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  font-family: 'Bree Serif', serif; }
   footer .main-footer {
     display: flex;
     background-color: #0d223f;
     padding: 5%;
     justify-content: space-around;
     flex-wrap: wrap; }
+    footer .main-footer a img {
+      width: 100px;
+      height: 100px; }
   footer .bottom-footer {
     align-items: center;
     background: black;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    font-size: 12px; }
     footer .bottom-footer p {
       color: white;
-      padding-left: 5%;
-      padding-right: 5%;
-      line-height: 20px; }
+      padding-left: 10%;
+      padding-right: 10%;
+      line-height: 20px;
+      text-align: center; }
     footer .bottom-footer .turner-logo {
       color: white; }
     footer .bottom-footer .footer-nav {
       color: white;
       list-style-type: none;
-      display: flex; }
-      footer .bottom-footer .footer-nav .f-nav-item a {
-        color: white;
-        text-decoration: none; }
+      display: flex;
+      justify-content: space-around; }
+      footer .bottom-footer .footer-nav .f-nav-item {
+        padding-left: 20px;
+        list-style-type: none; }
+        footer .bottom-footer .footer-nav .f-nav-item a {
+          color: white;
+          text-decoration: none; }
+        footer .bottom-footer .footer-nav .f-nav-item :hover {
+          color: #F9A11E; }
 
 /* ------- MEDIA QUERIES ------ */
 @media (max-width: 650px) {
   .navbar-wrapper-section .top-nav {
-    display: none; } }
+    display: none; }
+  .turner-logo {
+    padding-left: 10%;
+    padding-right: 10%; } }

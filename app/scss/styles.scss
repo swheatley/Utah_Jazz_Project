@@ -44,6 +44,7 @@
               }
               :hover{
                 text-decoration: underline;
+                cursor: pointer;
               }
             }
           }
@@ -84,11 +85,9 @@
 
             }
             :hover{
-              background-color: #F9A11E;
-              padding: 10px;
-              border-radius: 5%;
+              color: #F9A11E;
+              cursor: pointer;
               }
-
             }
 
           }
@@ -121,6 +120,7 @@
                   :hover{
                     background-color: #153920;
                     border: solid 3px white;
+                    cursor: pointer;
                   }
 
                 }
@@ -133,14 +133,30 @@
 
       }
     }
-  
+
 
 /* ------ Main Content Section ------- */
 .main-content{
+    font-family: 'Bree Serif', serif;
     .suites{
-      height: 300px;
       text-align: center;
       text-transform: uppercase;
+      display: flex;
+      flex-direction: column;
+      padding-top:5%;
+
+      .content-block{
+        background: rgba(255,255,255,0.7);
+        border-radius: 1%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-family: 'Bree Serif', serif;
+        margin-left: 8.5%;
+        margin-right: 8.5%;
+        padding: 5%;
+
+      }
 
 
 
@@ -149,14 +165,43 @@
 
     }
     .lexus-club{
+      display: flex;
+      flex-direction: column;
       text-align: center;
       text-transform: uppercase;
-      height: 300px;
+      .content-block{
+        background: rgba(255,255,255,0.7);
+        border-radius: 1%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-family: 'Bree Serif', serif;
+        margin-left: 8.5%;
+        margin-right: 8.5%;
+        padding: 5%;
+
+      }
     }
     .executives-club{
+      display: flex;
+      flex-direction: column;
       text-align: center;
       text-transform: uppercase;
-      height: 300px;
+      padding-bottom:5%;
+
+      .content-block{
+        background: rgba(255,255,255,0.7);
+        border-radius: 1%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-family: 'Bree Serif', serif;
+        margin-left: 8.5%;
+        margin-right: 8.5%;
+        padding: 5%;
+
+
+      }
     }
 
 }
@@ -166,14 +211,19 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    //fixed-height: 360px;
-
+    font-family: 'Bree Serif', serif;
     .main-footer{
         display: flex;
         background-color: rgb(13, 34, 63);
         padding: 5%;
         justify-content: space-around;
         flex-wrap: wrap;
+        a{
+          img{
+            width: 100px;
+            height: 100px;
+          }
+        }
     }
     .bottom-footer{
       align-items: center;
@@ -182,13 +232,13 @@ footer{
       flex-direction: column;
       flex-wrap: wrap;
       letter-spacing: 2px;
-
-
+      font-size: 12px;
       p{
         color: rgb(255,255,255);
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
         line-height: 20px;
+        text-align: center;
 
       }
       .turner-logo{
@@ -198,10 +248,16 @@ footer{
         color: rgb(255,255,255);
         list-style-type: none;
         display: flex;
+        justify-content: space-around;
         .f-nav-item{
-         a{
+          padding-left: 20px;
+          list-style-type: none;
+          a{
            color: rgb(255,255,255);
            text-decoration: none;
+         }
+         :hover{
+           color: #F9A11E;
          }
         }
 
@@ -218,6 +274,14 @@ footer{
       .top-nav{
         display: none;
       }
+    }
+    .turner-logo{
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .footer-nav{
+
+
     }
   }
 

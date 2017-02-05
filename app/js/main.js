@@ -18,4 +18,15 @@ window.onload = function(){
   }
 
   window.addEventListener("scroll", stickyNav);
+
+/* ---- Slick Carousel Code --- */
+  //   $(document).ready(function(){
+  //     $('.owl-carousel').owlCarousel({
+   //
+  //
+  //     });
+   //
+   //
+  //  });
+
 }
