@@ -20,6 +20,7 @@ window.onload = function(){
   window.addEventListener("scroll", stickyNav);
 
   /* ----- Scrollspy Code */
+   smoothScroll.init();
   /* --- Hamburger Menu Code */
 
 /* ---- Slick Carousel Code --- */
