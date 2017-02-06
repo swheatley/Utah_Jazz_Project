@@ -1,0 +1,34 @@
+@media (min-width: 720px) and (max-width: 1135px) {
+  .page-container .navbar-wrapper-section .main-nav .snap-nav {
+    display: none; }
+  .page-container .navbar-wrapper-section .main-nav .header-nav-items {
+    display: flex; }
+    .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list {
+      flex-wrap: wrap;
+      justify-content: center; }
+  .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper {
+    display: flex;
+    padding-left: 10px; }
+  .page-container .main-content .sections #suites h1 {
+    font-size: 55px; }
+  .page-container .main-content .sections #suites .suite-images .large-image,
+  .page-container .main-content .sections #suites .suite-images .small-image {
+    width: 340px;
+    height: 260px; }
+  .page-container .main-content .sections #lexus-club h1 {
+    font-size: 55px; }
+  .page-container .main-content .sections #lexus-club .lexus-images .large-image,
+  .page-container .main-content .sections #lexus-club .lexus-images .small-images {
+    width: 290px;
+    height: 200px; }
+  .page-container .main-content .sections #executives-club h1 {
+    font-size: 55px; }
+  .page-container .main-content .sections #executives-club .execuitves-images .large-image,
+  .page-container .main-content .sections #executives-club .execuitves-images .small-images {
+    width: 290px;
+    height: 200px; }
+  .page-container footer .bottom-footer .turner-logo {
+    padding-right: 20px;
+    padding-left: 20px; }
+  .page-container footer .bottom-footer .footer-nav {
+    flex-direction: column; } }

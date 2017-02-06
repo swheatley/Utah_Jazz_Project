@@ -1,7 +1,89 @@
 // Tablet Styles
 
-$break-tablet: 651px;
 
-@media  screen and (max-width){
+$tablet: "(min-width: 720px) and (max-width: 1135px)";
 
-}
+
+
+@media #{$tablet}{
+      .page-container{
+        .navbar-wrapper-section{
+          .main-nav{
+            .snap-nav{
+              display: none;
+            }
+            .header-nav-items{
+                display: flex;
+              .main-item-list{
+                flex-wrap: wrap;
+                justify-content: center;
+              }
+            }
+            .social-icon-wrapper{
+              display: flex;
+              padding-left: 10px;
+              .social-icon-list{
+
+              }
+            }
+          }
+
+        } // end of navbar-wrapper section
+        .main-content{
+          .sections{
+            #suites{
+              h1{
+                font-size: 55px;
+              }
+              .suite-images{
+                .large-image,
+                .small-image{
+                  width: 340px;
+                  height: 260px;
+                }
+              }
+            }
+            #lexus-club{
+              h1{
+                font-size: 55px;
+              }
+              .lexus-images{
+                .large-image,
+                .small-images{
+                  width: 290px;
+                  height: 200px;
+                }
+              }
+
+            }
+            #executives-club{
+              h1{
+                font-size: 55px;
+              }
+              .execuitves-images{
+                .large-image,
+                .small-images{
+                  width: 290px;
+                  height: 200px;
+                }
+              }
+
+            }
+          }
+        } // end of Main-Content Section
+        footer{
+          .main-footer{
+
+          }
+          .bottom-footer{
+            .turner-logo{
+              padding-right: 20px;
+              padding-left: 20px;
+            }
+            .footer-nav{
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }

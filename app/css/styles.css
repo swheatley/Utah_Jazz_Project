@@ -109,10 +109,10 @@
       text-shadow: 1px 2px gold;
       font-size: 60px; }
     .main-content .suites .large-image {
-      border-top: 10px solid #0d223f;
+      border-top: 5px solid #0d223f;
       border-right: 5px solid #0d223f;
       border-left: 5px solid #0d223f;
-      border-bottom: 10px solid #0d223f;
+      border-bottom: 5px solid #0d223f;
       width: 1024px;
       height: 620px; }
     .main-content .suites .small-images {
@@ -129,6 +129,11 @@
       margin-left: 8.5%;
       margin-right: 8.5%;
       padding: 5%; }
+      .main-content .suites .content-block .phone-number {
+        color: #F9A11E;
+        text-decoration: none; }
+    .main-content .suites .phone-number:hover {
+      text-decoration: underline; }
   .main-content .lexus-club {
     display: flex;
     flex-direction: column;
@@ -142,8 +147,8 @@
       border-right: 5px solid #0d223f;
       border-left: 5px solid #0d223f;
       border-bottom: 10px solid #0d223f;
-      width: 1024px;
-      height: 620px; }
+      max-width: 100%;
+      height: auto; }
     .main-content .lexus-club .small-images {
       border: 3px solid #0d223f;
       width: 340px;
@@ -158,6 +163,11 @@
       margin-left: 8.5%;
       margin-right: 8.5%;
       padding: 5%; }
+      .main-content .lexus-club .content-block .phone-number {
+        color: #F9A11E;
+        text-decoration: none; }
+    .main-content .lexus-club .phone-number:hover {
+      text-decoration: underline; }
   .main-content .executives-club {
     display: flex;
     flex-direction: column;
@@ -172,8 +182,8 @@
       border-right: 5px solid #0d223f;
       border-left: 5px solid #0d223f;
       border-bottom: 10px solid #0d223f;
-      width: 1024px;
-      height: 620px; }
+      max-width: 100%;
+      height: auto; }
     .main-content .executives-club .small-images {
       border: 3px solid #0d223f;
       width: 340px;
@@ -188,6 +198,11 @@
       margin-left: 8.5%;
       margin-right: 8.5%;
       padding: 5%; }
+      .main-content .executives-club .content-block .phone-number {
+        color: #F9A11E;
+        text-decoration: none; }
+    .main-content .executives-club .phone-number:hover {
+      text-decoration: underline; }
 
 /* ----- Footer ---- */
 footer {

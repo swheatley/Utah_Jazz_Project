@@ -152,13 +152,15 @@
         text-shadow: 1px 2px gold;
         font-size: 60px;
       }
+
       .large-image{
-        border-top: 10px solid rgb(13, 34, 63);
+        border-top: 5px solid rgb(13, 34, 63);
         border-right: 5px solid rgb(13, 34, 63);
         border-left: 5px solid rgb(13, 34, 63);
-        border-bottom: 10px solid rgb(13, 34, 63);
-        width:1024px;
+        border-bottom: 5px solid rgb(13, 34, 63);
+        width: 1024px;
         height: 620px;
+
       }
       .small-images{
         border: 3px solid rgb(13, 34, 63);
@@ -177,14 +179,14 @@
         margin-left: 8.5%;
         margin-right: 8.5%;
         padding: 5%;
-
-      }
-
-
-
-
-
-
+        .phone-number{
+          color: #F9A11E;
+          text-decoration: none;
+          }
+        }
+        .phone-number:hover{
+          text-decoration: underline;
+        }
     }
     .lexus-club{
       display: flex;
@@ -201,8 +203,8 @@
         border-right: 5px solid rgb(13, 34, 63);
         border-left: 5px solid rgb(13, 34, 63);
         border-bottom: 10px solid rgb(13, 34, 63);
-        width:1024px;
-        height: 620px;
+        max-width: 100%;
+        height: auto;
       }
       .small-images{
         border: 3px solid rgb(13, 34, 63);
@@ -220,8 +222,15 @@
         margin-left: 8.5%;
         margin-right: 8.5%;
         padding: 5%;
+        .phone-number{
+          color: #F9A11E;
+          text-decoration: none;
+          }
 
-      }
+        }
+        .phone-number:hover{
+          text-decoration: underline;
+        }
     }
     .executives-club{
       display: flex;
@@ -239,8 +248,8 @@
         border-right: 5px solid rgb(13, 34, 63);
         border-left: 5px solid rgb(13, 34, 63);
         border-bottom: 10px solid rgb(13, 34, 63);
-        width:1024px;
-        height: 620px;
+        max-width: 100%;
+        height: auto;
       }
       .small-images{
         border: 3px solid rgb(13, 34, 63);
@@ -258,12 +267,17 @@
         margin-left: 8.5%;
         margin-right: 8.5%;
         padding: 5%;
+        .phone-number{
+          color: #F9A11E;
+          text-decoration: none;
+          }
 
-
+        }
+        .phone-number:hover{
+          text-decoration: underline;
+        }
       }
     }
-
-}
 /* ----- Footer ---- */
 
 footer{
@@ -323,9 +337,3 @@ footer{
       }
     }
   }
-@media screen and ( max-width: 1080px) {
-  // .large-image{
-  //   width: 290px;
-  //   height: 200px;
-  // }
-}

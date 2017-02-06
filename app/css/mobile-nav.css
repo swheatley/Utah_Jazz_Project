@@ -1,43 +1,67 @@
-@media screen and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 720px) {
+  .page-container .navbar-wrapper-section .top-nav {
+    display: none; }
   .page-container .navbar-wrapper-section .main-nav .snap-nav {
     display: flex;
     padding-right: 5%; }
-    .page-container .navbar-wrapper-section .main-nav .snap-nav .fa-bars {
-      color: #F9A11E; }
-    .page-container .navbar-wrapper-section .main-nav .snap-nav .fa-times {
-      color: #F9A11E;
-      display: none; }
+    .page-container .navbar-wrapper-section .main-nav .snap-nav a {
+      text-decoration: none; }
+      .page-container .navbar-wrapper-section .main-nav .snap-nav a .fa-bars {
+        color: #F9A11E; }
+      .page-container .navbar-wrapper-section .main-nav .snap-nav a .fa-times {
+        display: none;
+        color: #F9A11E; }
   .page-container .navbar-wrapper-section .main-nav .header-nav-items {
     display: none; }
     .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list {
-      flex-direction: column; }
+      flex-direction: column;
+      font-size: 20px; }
   .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper {
     display: none;
     padding-left: 10px; }
+    .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list {
+      display: flex;
+      padding-left: 25%;
+      list-style-type: none;
+      line-height: 5; }
   .page-container .main-content .sections #suites h1 {
-    font-size: 55px; }
+    font-size: 50px; }
   .page-container .main-content .sections #suites .suite-images .large-image,
   .page-container .main-content .sections #suites .suite-images .small-images {
     width: 290px;
     height: 200px; }
+  .page-container .main-content .sections #suites .content-block {
+    margin-left: 9.5%;
+    margin-right: 9.5%; }
   .page-container .main-content .sections #lexus-club h1 {
-    font-size: 55px; }
+    font-size: 50px; }
   .page-container .main-content .sections #lexus-club .lexus-images .large-image,
   .page-container .main-content .sections #lexus-club .lexus-images .small-images {
     width: 290px;
     height: 200px; }
+  .page-container .main-content .sections #lexus-club .content-block {
+    margin-left: 9.5%;
+    margin-right: 9.5%; }
   .page-container .main-content .sections #executives-club h1 {
-    font-size: 55px; }
+    font-size: 50px; }
   .page-container .main-content .sections #executives-club .execuitves-images .large-image,
   .page-container .main-content .sections #executives-club .execuitves-images .small-images {
     width: 290px;
     height: 200px; }
-  .page-container footer .bottom-footer .turner-logo {
-    padding-right: 20px;
-    padding-left: 20px; }
-  .page-container footer .bottom-footer .footer-nav {
-    flex-direction: column; } }
-
-@media screen and (max-width: 650px) {
-  .page-container .navbar-wrapper-section .top-nav {
-    display: none; } }
+  .page-container .main-content .sections #executives-club .content-block {
+    margin-left: 9.5%;
+    margin-right: 9.5%; }
+  .page-container footer {
+    flex-direction: column; }
+    .page-container footer .main-footer {
+      padding: 10%; }
+    .page-container footer .bottom-footer .turner-logo {
+      padding-left: 5%;
+      padding-right: 5%;
+      text-align: center; }
+    .page-container footer .bottom-footer .footer-nav {
+      flex-wrap: wrap;
+      justify-content: center;
+      line-height: 2;
+      padding-right: 5%;
+      padding-left: 5%; } }
