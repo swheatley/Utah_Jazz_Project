@@ -19,6 +19,9 @@ window.onload = function(){
 
   window.addEventListener("scroll", stickyNav);
 
+  /* ----- Scrollspy Code */
+  /* --- Hamburger Menu Code */
+
 /* ---- Slick Carousel Code --- */
   //   $(document).ready(function(){
   //     $('.owl-carousel').owlCarousel({

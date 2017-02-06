@@ -1,4 +1,5 @@
 /* ----- Navbar Styles------ */
+
 .page-container{
   background-image: url("../images/jazz_court.jpg");
   background-size: cover;
@@ -144,6 +145,20 @@
       display: flex;
       flex-direction: column;
       padding-top:5%;
+      h1{
+        text-shadow: 1px 2px gold;
+        font-size: 60px;
+      }
+      .large-image{
+        border-top: 10px solid rgb(13, 34, 63);
+        border-right: 5px solid rgb(13, 34, 63);
+        border-left: 5px solid rgb(13, 34, 63);
+        border-bottom: 10px solid rgb(13, 34, 63);
+      }
+      .small-images{
+        border: 3px solid rgb(13, 34, 63);
+      }
+
 
       .content-block{
         background: rgba(255,255,255,0.7);
@@ -169,6 +184,17 @@
       flex-direction: column;
       text-align: center;
       text-transform: uppercase;
+      h1{
+        text-shadow: 1px 2px gold;
+        font-size: 60px;
+
+      }
+      .large-image{
+        border-top: 10px solid rgb(13, 34, 63);
+        border-right: 5px solid rgb(13, 34, 63);
+        border-left: 5px solid rgb(13, 34, 63);
+        border-bottom: 10px solid rgb(13, 34, 63);
+      }
       .content-block{
         background: rgba(255,255,255,0.7);
         border-radius: 1%;
@@ -188,6 +214,17 @@
       text-align: center;
       text-transform: uppercase;
       padding-bottom:5%;
+      h1{
+        text-shadow: 1px 2px gold;
+        font-size: 60px;
+
+      }
+      .large-image{
+        border-top: 10px solid rgb(13, 34, 63);
+        border-right: 5px solid rgb(13, 34, 63);
+        border-left: 5px solid rgb(13, 34, 63);
+        border-bottom: 10px solid rgb(13, 34, 63);
+      }
 
       .content-block{
         background: rgba(255,255,255,0.7);
