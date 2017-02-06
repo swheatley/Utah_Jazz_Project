@@ -110,9 +110,13 @@
       border-top: 10px solid #0d223f;
       border-right: 5px solid #0d223f;
       border-left: 5px solid #0d223f;
-      border-bottom: 10px solid #0d223f; }
+      border-bottom: 10px solid #0d223f;
+      width: 1024px;
+      height: 620px; }
     .main-content .suites .small-images {
-      border: 3px solid #0d223f; }
+      border: 3px solid #0d223f;
+      width: 340px;
+      height: 200px; }
     .main-content .suites .content-block {
       background: rgba(255, 255, 255, 0.7);
       border-radius: 1%;
@@ -135,7 +139,13 @@
       border-top: 10px solid #0d223f;
       border-right: 5px solid #0d223f;
       border-left: 5px solid #0d223f;
-      border-bottom: 10px solid #0d223f; }
+      border-bottom: 10px solid #0d223f;
+      width: 1024px;
+      height: 620px; }
+    .main-content .lexus-club .small-images {
+      border: 3px solid #0d223f;
+      width: 340px;
+      height: 200px; }
     .main-content .lexus-club .content-block {
       background: rgba(255, 255, 255, 0.7);
       border-radius: 1%;
@@ -159,7 +169,13 @@
       border-top: 10px solid #0d223f;
       border-right: 5px solid #0d223f;
       border-left: 5px solid #0d223f;
-      border-bottom: 10px solid #0d223f; }
+      border-bottom: 10px solid #0d223f;
+      width: 1024px;
+      height: 620px; }
+    .main-content .executives-club .small-images {
+      border: 3px solid #0d223f;
+      width: 340px;
+      height: 200px; }
     .main-content .executives-club .content-block {
       background: rgba(255, 255, 255, 0.7);
       border-radius: 1%;
