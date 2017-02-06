@@ -42,7 +42,7 @@
     .page-container .navbar-wrapper-section .main-nav {
       background-color: #0d223f;
       display: flex;
-      align-items: center;
+      flex-direction: column;
       justify-content: space-between;
       flex-wrap: wrap;
       top: 0;
@@ -50,10 +50,10 @@
       transition: all 0.5s;
       position: relative;
       z-index: 1; }
-      .page-container .navbar-wrapper-section .main-nav .jazz-item #jazz-logo {
+      .page-container .navbar-wrapper-section .main-nav .snap-nav-container .jazz-item #jazz-logo {
         height: 92px;
         width: 141px; }
-      .page-container .navbar-wrapper-section .main-nav .snap-nav {
+      .page-container .navbar-wrapper-section .main-nav .snap-nav-container .snap-nav {
         display: none; }
       .page-container .navbar-wrapper-section .main-nav .header-nav-items {
         display: flex; }
@@ -63,14 +63,12 @@
           justify-content: space-between;
           align-items: center;
           flex-wrap: wrap; }
-          .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items {
-            margin-left: 30px; }
-            .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items a {
-              color: white;
-              text-decoration: none; }
-            .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items :hover {
-              color: #F9A11E;
-              cursor: pointer; }
+          .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items a {
+            color: white;
+            text-decoration: none; }
+          .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items :hover {
+            color: #F9A11E;
+            cursor: pointer; }
       .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list {
         display: flex;
         list-style-type: none;

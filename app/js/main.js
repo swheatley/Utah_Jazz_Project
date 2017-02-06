@@ -44,9 +44,14 @@ window.onload = function(){
     socialIcons.style.display = "none";
 
    }
+   function navBarLoaded(){
+     nav.style.display = "flex";
+     socialIcons.style.display = "flex";
+   }
 
    hamburgerButton.addEventListener('click', hamburgerMenu);
    xButton.addEventListener('click', xButtonMenu);
+   window.addEventListener("load", navBarLoaded);
 
 
 }

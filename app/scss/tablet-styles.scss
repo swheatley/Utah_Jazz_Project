@@ -1,34 +1,47 @@
 // Tablet Styles
 
 
-$tablet: "(min-width: 720px) and (max-width: 1135px)";
-
-
-
+$tablet: "(min-width: 650px) and (max-width: 1020px)";
 @media #{$tablet}{
       .page-container{
         .navbar-wrapper-section{
           .main-nav{
+            .snap-nav-container{
             .snap-nav{
               display: none;
+              }
+              .jazz-item{
+                .jazz-logo{
+                  padding-left: 2%;
+                }
+              }
             }
             .header-nav-items{
-                display: flex;
+              justify-content: center;
               .main-item-list{
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
                 flex-wrap: wrap;
-                justify-content: center;
+                .main-items{
+                  margin-right: 20px;
+                }
+
               }
             }
             .social-icon-wrapper{
               display: flex;
-              padding-left: 10px;
+              justify-content: flex-end;
+              position: relative;
+              bottom: 150px;
               .social-icon-list{
+                padding-right: 10%;
 
               }
             }
           }
 
-        } // end of navbar-wrapper section
+        }
         .main-content{
           .sections{
             #suites{

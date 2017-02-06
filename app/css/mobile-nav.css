@@ -1,23 +1,33 @@
-@media (min-width: 320px) and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 650px) {
   .page-container .navbar-wrapper-section .top-nav {
     display: none; }
-  .page-container .navbar-wrapper-section .main-nav .snap-nav {
+  .page-container .navbar-wrapper-section .main-nav .snap-nav-container {
     display: flex;
-    padding-right: 5%; }
-    .page-container .navbar-wrapper-section .main-nav .snap-nav a {
-      text-decoration: none; }
-      .page-container .navbar-wrapper-section .main-nav .snap-nav a .fa-bars {
-        color: #F9A11E; }
-      .page-container .navbar-wrapper-section .main-nav .snap-nav a .fa-times {
-        display: none;
-        color: #F9A11E; }
+    align-items: center;
+    justify-content: space-between; }
+    .page-container .navbar-wrapper-section .main-nav .snap-nav-container .snap-nav {
+      display: flex;
+      position: relative;
+      right: 20px; }
+      .page-container .navbar-wrapper-section .main-nav .snap-nav-container .snap-nav a {
+        text-decoration: none; }
+        .page-container .navbar-wrapper-section .main-nav .snap-nav-container .snap-nav a .fa-bars {
+          color: #F9A11E; }
+        .page-container .navbar-wrapper-section .main-nav .snap-nav-container .snap-nav a .fa-times {
+          display: none;
+          color: #F9A11E; }
   .page-container .navbar-wrapper-section .main-nav .header-nav-items {
-    display: none; }
+    display: none;
+    justify-content: center; }
     .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list {
-      flex-direction: column;
-      font-size: 20px; }
+      font-size: 20px;
+      flex-wrap: wrap;
+      padding-left: 5%;
+      padding-right: 5%;
+      flex-direction: column; }
   .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper {
     display: none;
+    justify-content: center;
     padding-left: 10px; }
     .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list {
       display: flex;
@@ -28,29 +38,32 @@
     font-size: 50px; }
   .page-container .main-content .sections #suites .suite-images .large-image,
   .page-container .main-content .sections #suites .suite-images .small-images {
-    width: 290px;
-    height: 200px; }
+    width: 270px;
+    height: 200px;
+    border: solid 5px #0d223f; }
   .page-container .main-content .sections #suites .content-block {
-    margin-left: 9.5%;
-    margin-right: 9.5%; }
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
   .page-container .main-content .sections #lexus-club h1 {
     font-size: 50px; }
   .page-container .main-content .sections #lexus-club .lexus-images .large-image,
   .page-container .main-content .sections #lexus-club .lexus-images .small-images {
-    width: 290px;
-    height: 200px; }
+    width: 270px;
+    height: 200px;
+    border: solid 5px #0d223f; }
   .page-container .main-content .sections #lexus-club .content-block {
-    margin-left: 9.5%;
-    margin-right: 9.5%; }
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
   .page-container .main-content .sections #executives-club h1 {
     font-size: 50px; }
   .page-container .main-content .sections #executives-club .execuitves-images .large-image,
   .page-container .main-content .sections #executives-club .execuitves-images .small-images {
-    width: 290px;
-    height: 200px; }
+    width: 270px;
+    height: 200px;
+    border: solid 5px #0d223f; }
   .page-container .main-content .sections #executives-club .content-block {
-    margin-left: 9.5%;
-    margin-right: 9.5%; }
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
   .page-container footer {
     flex-direction: column; }
     .page-container footer .main-footer {

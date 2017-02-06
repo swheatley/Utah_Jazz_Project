@@ -1,14 +1,24 @@
-@media (min-width: 720px) and (max-width: 1135px) {
-  .page-container .navbar-wrapper-section .main-nav .snap-nav {
+@media (min-width: 650px) and (max-width: 1020px) {
+  .page-container .navbar-wrapper-section .main-nav .snap-nav-container .snap-nav {
     display: none; }
+  .page-container .navbar-wrapper-section .main-nav .snap-nav-container .jazz-item .jazz-logo {
+    padding-left: 2%; }
   .page-container .navbar-wrapper-section .main-nav .header-nav-items {
-    display: flex; }
+    justify-content: center; }
     .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list {
-      flex-wrap: wrap;
-      justify-content: center; }
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items {
+        margin-right: 20px; }
   .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper {
     display: flex;
-    padding-left: 10px; }
+    justify-content: flex-end;
+    position: relative;
+    bottom: 150px; }
+    .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list {
+      padding-right: 10%; }
   .page-container .main-content .sections #suites h1 {
     font-size: 55px; }
   .page-container .main-content .sections #suites .suite-images .large-image,

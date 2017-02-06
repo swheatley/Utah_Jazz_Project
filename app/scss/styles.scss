@@ -27,8 +27,6 @@
             width: 90px;
             height: 15px;
             }
-
-
           }
           .nav-item-list{
             list-style-type: none;
@@ -55,15 +53,15 @@
       .main-nav{
         background-color: rgb(13, 34, 63);
         display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: space-between;
         flex-wrap: wrap;
-
         top:0;
         width: 100%;
-        transition:all 0.5s;
+        transition: all 0.5s;
         position: relative;
         z-index: 1;
+        .snap-nav-container{
         .jazz-item{
         #jazz-logo{
           height: 92px;
@@ -72,6 +70,7 @@
         }
         .snap-nav{
           display: none;
+          }
         }
         .header-nav-items{
           display: flex;
@@ -82,7 +81,7 @@
             align-items: center;
             flex-wrap: wrap;
           .main-items{
-            margin-left: 30px;
+            //margin-left: 30px;
             a{
               color: rgb(255,255,255);
               text-decoration: none;
@@ -276,8 +275,9 @@
         .phone-number:hover{
           text-decoration: underline;
         }
-      }
     }
+
+}
 /* ----- Footer ---- */
 
 footer{

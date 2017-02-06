@@ -1,5 +1,6 @@
 // Mobile Styles
-$mobile: "(min-width: 320px) and (max-width: 720px)";
+$mobile: "(min-width: 320px) and (max-width: 650px)";
+
 
 @media #{$mobile}{
     .page-container{
@@ -8,33 +9,40 @@ $mobile: "(min-width: 320px) and (max-width: 720px)";
           display: none;
         }
         .main-nav{
+          .snap-nav-container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
           .snap-nav{
             display: flex;
-            padding-right: 5%;
+            position: relative;
+            right: 20px;
             a{
               text-decoration: none;
             .fa-bars{
               color: #F9A11E;
-
-
             }
             .fa-times{
               display: none;
-              color: #F9A11E;
-
+              color: #F9A11E; }
             }
+           }
           }
-        }
           .header-nav-items{
-            display:none;
+            display: none;
+            justify-content: center;
             .main-item-list{
-              flex-direction: column;
               font-size: 20px;
+              flex-wrap: wrap;
+              padding-left: 5%;
+              padding-right: 5%;
+              flex-direction: column;
               .main-items{}
             }
           }
           .social-icon-wrapper{
             display: none;
+            justify-content: center;
             padding-left: 10px;
             .social-icon-list{
               display: flex;
@@ -53,16 +61,19 @@ $mobile: "(min-width: 320px) and (max-width: 720px)";
               font-size: 50px;
             }
             .suite-images{
+
               .large-image,
               .small-images
               {
-                width: 290px;
+                width: 270px;
                 height: 200px;
+                border: solid 5px rgb(13, 34, 63);
               }
             }
             .content-block{
-              margin-left: 9.5%;
-              margin-right: 9.5%;
+              margin-left: 2.5%;
+              margin-right: 2.5%;
+              // max-width: 270px;
             }
           }
           #lexus-club{
@@ -72,13 +83,15 @@ $mobile: "(min-width: 320px) and (max-width: 720px)";
             .lexus-images{
               .large-image,
               .small-images{
-                width: 290px;
+                width: 270px;
                 height: 200px;
+                border: solid 5px rgb(13, 34, 63);
               }
             }
             .content-block{
-              margin-left: 9.5%;
-              margin-right: 9.5%;
+              margin-left: 2.5%;
+              margin-right: 2.5%;
+              // max-width: 270px;
             }
 
           }
@@ -89,13 +102,16 @@ $mobile: "(min-width: 320px) and (max-width: 720px)";
             .execuitves-images{
               .large-image,
               .small-images{
-                width: 290px;
+                width: 270px;
                 height: 200px;
+                border: solid 5px rgb(13, 34, 63);
               }
             }
             .content-block{
-              margin-left: 9.5%;
-              margin-right: 9.5%;
+              margin-left: 2.5%;
+              margin-right: 2.5%;
+              // max-width: 270px;
+
             }
           }
         }
