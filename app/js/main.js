@@ -19,18 +19,34 @@ window.onload = function(){
 
   window.addEventListener("scroll", stickyNav);
 
-  /* ----- Scrollspy Code */
-   smoothScroll.init();
-  /* --- Hamburger Menu Code */
+  /* ----- Smooth-Scroll */
 
-/* ---- Slick Carousel Code --- */
-  //   $(document).ready(function(){
-  //     $('.owl-carousel').owlCarousel({
-   //
-  //
-  //     });
-   //
-   //
-  //  });
+   smoothScroll.init({
+     offset: 120
+   });
+
+  /* --- Hamburger Menu Code */
+   const hamburgerButton = document.querySelector(".fa-bars");
+   const xButton = document.querySelector(".fa-times");
+   const nav = document.querySelector(".header-nav-items");
+   const socialIcons = document.querySelector(".social-icon-wrapper");
+
+   function hamburgerMenu(){
+     nav.style.display = "flex";
+     xButton.style.display = "flex";
+     socialIcons.style.display = "flex";
+     hamburgerButton.style.display = "none";
+   }
+   function xButtonMenu(){
+    hamburgerButton.style.display = "flex";
+    xButton.style.display = "none";
+    nav.style.display = "none";
+    socialIcons.style.display = "none";
+
+   }
+
+   hamburgerButton.addEventListener('click', hamburgerMenu);
+   xButton.addEventListener('click', xButtonMenu);
+
 
 }

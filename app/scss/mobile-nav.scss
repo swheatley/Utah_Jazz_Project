@@ -1,0 +1,110 @@
+// Mobile Styles
+$break-small: 480px;
+$break-medium: 650px;
+
+@media screen and (max-width: $break-small){
+    .page-container{
+      .navbar-wrapper-section{
+        .top-nav{}
+        .main-nav{
+          .jazz-item{}
+          .snap-nav{
+            display: flex;
+            padding-right: 5%;
+            .fa-bars{
+              color: #F9A11E;
+
+            }
+            .fa-times{
+              color: #F9A11E;
+              display: none;
+            }
+
+
+          }
+          .header-nav-items{
+            display:none;
+            .main-item-list{
+            flex-direction: column;
+            }
+          }
+          .social-icon-wrapper{
+            display: none;
+            padding-left: 10px;
+            .social-icon-list{
+
+            }
+          }
+        }
+
+      } // end of navbar-wrapper section
+      .main-content{
+        .sections{
+          #suites{
+            h1{
+              font-size: 55px;
+            }
+            .suite-images{
+              .large-image,
+              .small-images{
+                width: 290px;
+                height: 200px;
+              }
+            }
+          }
+          #lexus-club{
+            h1{
+              font-size: 55px;
+            }
+            .lexus-images{
+              .large-image,
+              .small-images{
+                width: 290px;
+                height: 200px;
+              }
+            }
+
+          }
+          #executives-club{
+            h1{
+              font-size: 55px;
+            }
+            .execuitves-images{
+              .large-image,
+              .small-images{
+                width: 290px;
+                height: 200px;
+              }
+            }
+
+          }
+        }
+      } // end of Main-Content Section
+      footer{
+        .main-footer{
+
+        }
+        .bottom-footer{
+          .turner-logo{
+            padding-right: 20px;
+            padding-left: 20px;
+          }
+          .footer-nav{
+            flex-direction: column;
+          }
+        }
+      }
+
+
+
+    }
+  }
+@media screen and (max-width: $break-medium){
+  .page-container{
+    .navbar-wrapper-section{
+      .top-nav{
+        display: none;
+      }
+    }
+  }
+}

@@ -70,6 +70,9 @@
           width: 141px;
           }
         }
+        .snap-nav{
+          display: none;
+        }
         .header-nav-items{
           display: flex;
           .main-item-list{
@@ -320,28 +323,9 @@ footer{
       }
     }
   }
-
-/* ------- MEDIA QUERIES ------ */
-
-// Mobile
-    @media(max-width: 650px){
-      .navbar-wrapper-section{
-
-      .top-nav{
-        display: none;
-      }
-    }
-    .turner-logo{
-      padding-left: 10%;
-      padding-right: 10%;
-    }
-    .footer-nav{
-
-
-    }
-  }
-
-// Tablet
-    @media(max-width: 770px){
-
-    }
+@media screen and ( max-width: 1080px) {
+  // .large-image{
+  //   width: 290px;
+  //   height: 200px;
+  // }
+}

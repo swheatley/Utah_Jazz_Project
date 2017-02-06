@@ -53,6 +53,8 @@
       .page-container .navbar-wrapper-section .main-nav .jazz-item #jazz-logo {
         height: 92px;
         width: 141px; }
+      .page-container .navbar-wrapper-section .main-nav .snap-nav {
+        display: none; }
       .page-container .navbar-wrapper-section .main-nav .header-nav-items {
         display: flex; }
         .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list {
@@ -231,11 +233,3 @@ footer {
           text-decoration: none; }
         footer .bottom-footer .footer-nav .f-nav-item :hover {
           color: #F9A11E; }
-
-/* ------- MEDIA QUERIES ------ */
-@media (max-width: 650px) {
-  .navbar-wrapper-section .top-nav {
-    display: none; }
-  .turner-logo {
-    padding-left: 10%;
-    padding-right: 10%; } }
