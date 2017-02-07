@@ -9,6 +9,7 @@ $mobile: "(min-width: 320px) and (max-width: 650px)";
           display: none;
         }
         .main-nav{
+          border: solid 5px white;
           .snap-nav-container{
             display: flex;
             align-items: center;
@@ -43,7 +44,7 @@ $mobile: "(min-width: 320px) and (max-width: 650px)";
           .social-icon-wrapper{
             display: none;
             justify-content: center;
-            padding-left: 10px;
+            padding-right: 5%;
             .social-icon-list{
               display: flex;
               padding-left: 25%;
@@ -56,12 +57,9 @@ $mobile: "(min-width: 320px) and (max-width: 650px)";
       }
       .main-content{
         .sections{
-          #suites{
-            h1{
-              font-size: 50px;
-            }
-            .suite-images{
-
+          h1{
+            font-size: 50px;
+          }
               .large-image,
               .small-images
               {
@@ -69,53 +67,14 @@ $mobile: "(min-width: 320px) and (max-width: 650px)";
                 height: 200px;
                 border: solid 5px rgb(13, 34, 63);
               }
-            }
-            .content-block{
-              margin-left: 2.5%;
-              margin-right: 2.5%;
-              // max-width: 270px;
-            }
-          }
-          #lexus-club{
-            h1{
-              font-size: 50px;
-            }
-            .lexus-images{
-              .large-image,
-              .small-images{
-                width: 270px;
-                height: 200px;
-                border: solid 5px rgb(13, 34, 63);
-              }
-            }
-            .content-block{
-              margin-left: 2.5%;
-              margin-right: 2.5%;
-              // max-width: 270px;
-            }
 
-          }
-          #executives-club{
-            h1{
-              font-size: 50px;
-            }
-            .execuitves-images{
-              .large-image,
-              .small-images{
-                width: 270px;
-                height: 200px;
-                border: solid 5px rgb(13, 34, 63);
-              }
-            }
             .content-block{
               margin-left: 2.5%;
               margin-right: 2.5%;
-              // max-width: 270px;
 
             }
           }
         }
-      }
       footer{
         flex-direction: column;
         .main-footer{

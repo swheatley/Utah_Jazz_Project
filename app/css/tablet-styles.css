@@ -1,44 +1,30 @@
 @media (min-width: 650px) and (max-width: 1020px) {
-  .page-container .navbar-wrapper-section .main-nav .snap-nav-container .snap-nav {
-    display: none; }
-  .page-container .navbar-wrapper-section .main-nav .snap-nav-container .jazz-item .jazz-logo {
-    padding-left: 2%; }
-  .page-container .navbar-wrapper-section .main-nav .header-nav-items {
-    justify-content: center; }
-    .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list {
-      list-style-type: none;
+  .page-container .navbar-wrapper-section .main-nav {
+    height: 100px; }
+    .page-container .navbar-wrapper-section .main-nav .header-nav-items {
+      margin-top: 15px;
+      margin-right: 35%; }
+      .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list {
+        list-style-type: none;
+        flex-wrap: wrap;
+        flex-direction: column; }
+        .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items {
+          padding-left: 5px; }
+        .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list li:nth-child(7),
+        .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list li:nth-child(8) {
+          display: none; }
+    .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper {
       display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap; }
-      .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items {
-        margin-right: 20px; }
-  .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    bottom: 150px; }
-    .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list {
-      padding-right: 10%; }
-  .page-container .main-content .sections #suites h1 {
+      justify-content: flex-end;
+      width: 132px; }
+  .page-container .main-content .sections h1 {
     font-size: 55px; }
-  .page-container .main-content .sections #suites .suite-images .large-image,
-  .page-container .main-content .sections #suites .suite-images .small-image {
+  .page-container .main-content .sections .large-image {
+    width: 340px;
+    height: 256px; }
+  .page-container .main-content .sections .small-images {
     width: 340px;
     height: 260px; }
-  .page-container .main-content .sections #lexus-club h1 {
-    font-size: 55px; }
-  .page-container .main-content .sections #lexus-club .lexus-images .large-image,
-  .page-container .main-content .sections #lexus-club .lexus-images .small-images {
-    width: 290px;
-    height: 200px; }
-  .page-container .main-content .sections #executives-club h1 {
-    font-size: 55px; }
-  .page-container .main-content .sections #executives-club .execuitves-images .large-image,
-  .page-container .main-content .sections #executives-club .execuitves-images .small-images {
-    width: 290px;
-    height: 200px; }
   .page-container footer .bottom-footer .turner-logo {
     padding-right: 20px;
-    padding-left: 20px; }
-  .page-container footer .bottom-footer .footer-nav {
-    flex-direction: column; } }
+    padding-left: 20px; } }
