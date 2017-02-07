@@ -1,5 +1,5 @@
 // Tablet Styles
-$tablet: "(min-width: 650px) and (max-width: 1020px)";
+@import 'variables.scss';
 @media #{$tablet}{
       .page-container{
         .navbar-wrapper-section{
@@ -36,7 +36,7 @@ $tablet: "(min-width: 650px) and (max-width: 1020px)";
           .sections{
 
               h1{
-                font-size: 55px;
+                font-size: $headerTwo;
               }
               .large-image{
                   width: 340px;

@@ -1,0 +1,31 @@
+
+/*----- Color and Fonts and Font Sizes ---- */
+
+// Colors
+$gold: #F9A11E;
+$jazzBlue: rgb(13, 34, 63);
+$jazzGreen:#153920;
+$white: #fff;
+$black: #000;
+$nbaLinks: #007ed9;
+
+// Font Family
+$bree: 'Bree Serif', serif;
+
+// Font sizes
+
+$regularSize: 12px;
+$regularFourteen: 14px;
+$regularEighteen: 18px;
+
+$header: 60px;
+$headerTwo: 55px;
+
+
+/*----- Screen Sizes | Breakpints --- */
+
+// Breakpoints
+
+$mobile: "(min-width: 320px) and (max-width: 650px)";
+$tablet: "(min-width: 650px) and (max-width: 1020px)";
+$desktop: "(min-width: 1025px)";

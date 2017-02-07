@@ -49,9 +49,23 @@ window.onload = function(){
      socialIcons.style.display = "flex";
    }
 
+   function windowSize(){
+     if(window.innerWidth >= 650){
+       nav.style.display = "flex";
+       socialIcons.style.display = "flex";
+
+     }else{
+       nav.style.display = "none";
+       socialIcons.style.display = "none";
+     }
+
+
+   }
+
    hamburgerButton.addEventListener('click', hamburgerMenu);
    xButton.addEventListener('click', xButtonMenu);
    window.addEventListener("load", navBarLoaded);
+   window.addEventListener('resize', windowSize);
 
 
 }

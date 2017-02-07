@@ -1,3 +1,4 @@
+@import 'variables.scss';
 /* ----- Navbar Styles------ */
 
 .page-container{
@@ -8,9 +9,9 @@
 .navbar-wrapper-section{
   display: flex;
   flex-direction: column;
-  font-family: 'Bree Serif', serif;
+  font-family: $bree;
     .top-nav{
-      background-color: rgb(255, 255, 255);
+      background-color: $white;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
@@ -32,13 +33,13 @@
             list-style-type: none;
             display: flex;
           .nba-items{
-              font-size: 14px;
-              color: #007ed9;
+              font-size: $regularFourteen;
+              color: $nbaLinks;
               text-transform: uppercase;
               padding-left: 50px;
 
               a{
-                color: #007ed9;
+                color: $nbaLinks;
                 text-decoration: none;
               }
               :hover{
@@ -51,7 +52,7 @@
         }
       }
       .main-nav{
-        background-color: rgb(13, 34, 63);
+        background-color: $jazzBlue;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -87,7 +88,7 @@
 
             }
             :hover{
-              color: #F9A11E;
+              color: $gold;
               cursor: pointer;
               }
             }
@@ -105,11 +106,11 @@
                 .btn-social{
                   width: 20px;
                   height: 20px;
-                  font-size: 18px;
+                  font-size: $regularEighteen;
                   line-height: 45px;
 
                   i{
-                    background-color: #F9A11E;
+                    background-color: $gold;
                     color: white;
                     border-radius: 100%;
                     padding: 10px;
@@ -120,7 +121,7 @@
 
                   }
                   :hover{
-                    background-color: #153920;
+                    background-color: $jazzGreen;
                     border: solid 3px white;
                     cursor: pointer;
                   }
@@ -139,7 +140,7 @@
 
 /* ------ Main Content Section ------- */
 .main-content{
-    font-family: 'Bree Serif', serif;
+    font-family: $bree;
     .suites{
       text-align: center;
       text-transform: uppercase;
@@ -148,20 +149,20 @@
       padding-top:5%;
       h1{
         text-shadow: 1px 2px gold;
-        font-size: 60px;
+        font-size: $header;
       }
 
       .large-image{
-        border-top: 5px solid rgb(13, 34, 63);
-        border-right: 5px solid rgb(13, 34, 63);
-        border-left: 5px solid rgb(13, 34, 63);
-        border-bottom: 5px solid rgb(13, 34, 63);
+        border-top: 5px solid $jazzBlue;
+        border-right: 5px solid $jazzBlue;
+        border-left: 5px solid $jazzBlue;
+        border-bottom: 5px solid $jazzBlue;
         width: 1024px;
         height: 620px;
 
       }
       .small-images{
-        border: 3px solid rgb(13, 34, 63);
+        border: 3px solid $jazzBlue;
         width: 340px;
         height: 200px;
       }
@@ -173,12 +174,12 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        font-family: 'Bree Serif', serif;
+        font-family: $bree;
         margin-left: 8.5%;
         margin-right: 8.5%;
         padding: 5%;
         .phone-number{
-          color: #F9A11E;
+          color: $gold;
           text-decoration: none;
           }
         }
@@ -193,19 +194,19 @@
       text-transform: uppercase;
       h1{
         text-shadow: 1px 2px gold;
-        font-size: 60px;
+        font-size: $header;
 
       }
       .large-image{
-        border-top: 10px solid rgb(13, 34, 63);
-        border-right: 5px solid rgb(13, 34, 63);
-        border-left: 5px solid rgb(13, 34, 63);
-        border-bottom: 10px solid rgb(13, 34, 63);
+        border-top: 10px solid $jazzBlue;
+        border-right: 5px solid $jazzBlue;
+        border-left: 5px solid $jazzBlue;
+        border-bottom: 10px solid $jazzBlue;
         max-width: 100%;
         height: auto;
       }
       .small-images{
-        border: 3px solid rgb(13, 34, 63);
+        border: 3px solid $jazzBlue;
         width: 340px;
         height: 200px;
 
@@ -216,12 +217,12 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        font-family: 'Bree Serif', serif;
+        font-family: $bree;
         margin-left: 8.5%;
         margin-right: 8.5%;
         padding: 5%;
         .phone-number{
-          color: #F9A11E;
+          color: $gold;
           text-decoration: none;
           }
 
@@ -238,19 +239,19 @@
       padding-bottom:5%;
       h1{
         text-shadow: 1px 2px gold;
-        font-size: 60px;
+        font-size: $header;
 
       }
       .large-image{
-        border-top: 10px solid rgb(13, 34, 63);
-        border-right: 5px solid rgb(13, 34, 63);
-        border-left: 5px solid rgb(13, 34, 63);
-        border-bottom: 10px solid rgb(13, 34, 63);
+        border-top: 10px solid $jazzBlue;
+        border-right: 5px solid $jazzBlue;
+        border-left: 5px solid $jazzBlue;
+        border-bottom: 10px solid $jazzBlue;
         max-width: 100%;
         height: auto;
       }
       .small-images{
-        border: 3px solid rgb(13, 34, 63);
+        border: 3px solid $jazzBlue;
         width: 340px;
         height: 200px;
       }
@@ -261,12 +262,12 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        font-family: 'Bree Serif', serif;
+        font-family: $bree;
         margin-left: 8.5%;
         margin-right: 8.5%;
         padding: 5%;
         .phone-number{
-          color: #F9A11E;
+          color: $gold;
           text-decoration: none;
           }
 
@@ -283,10 +284,10 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-family: 'Bree Serif', serif;
+    font-family: $bree;
     .main-footer{
         display: flex;
-        background-color: rgb(13, 34, 63);
+        background-color: $jazzBlue;
         padding: 5%;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -299,14 +300,14 @@ footer{
     }
     .bottom-footer{
       align-items: center;
-      background: rgb(0,0,0);
+      background: $black;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       letter-spacing: 2px;
-      font-size: 12px;
+      font-size: $regularSize;
       p{
-        color: rgb(255,255,255);
+        color: $white;
         padding-left: 10%;
         padding-right: 10%;
         line-height: 20px;
@@ -314,10 +315,10 @@ footer{
 
       }
       .turner-logo{
-        color: rgb(255,255,255);
+        color: $white;
       }
       .footer-nav{
-        color: rgb(255,255,255);
+        color: $white;
         list-style-type: none;
         display: flex;
         justify-content: space-around;
@@ -325,11 +326,11 @@ footer{
           padding-left: 20px;
           list-style-type: none;
           a{
-           color: rgb(255,255,255);
+           color: $white;
            text-decoration: none;
          }
          :hover{
-           color: #F9A11E;
+           color: $gold;
          }
         }
 

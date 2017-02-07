@@ -1,5 +1,4 @@
-// Desktop Styles
-$desktop: "(min-width: 1025px)";
+@import 'variables.scss';
 
 @media #{$desktop}{
   .page-container{

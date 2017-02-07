@@ -1,5 +1,5 @@
 // Mobile Styles
-$mobile: "(min-width: 320px) and (max-width: 650px)";
+@import 'variables.scss';
 
 
 @media #{$mobile}{
@@ -9,7 +9,7 @@ $mobile: "(min-width: 320px) and (max-width: 650px)";
           display: none;
         }
         .main-nav{
-          border: solid 5px white;
+          border: solid 5px $white;
           .snap-nav-container{
             display: flex;
             align-items: center;
@@ -21,11 +21,11 @@ $mobile: "(min-width: 320px) and (max-width: 650px)";
             a{
               text-decoration: none;
             .fa-bars{
-              color: #F9A11E;
+              color: $gold;
             }
             .fa-times{
               display: none;
-              color: #F9A11E; }
+              color: $gold; }
             }
            }
           }
@@ -38,7 +38,6 @@ $mobile: "(min-width: 320px) and (max-width: 650px)";
               padding-left: 5%;
               padding-right: 5%;
               flex-direction: column;
-              .main-items{}
             }
           }
           .social-icon-wrapper{
@@ -58,14 +57,14 @@ $mobile: "(min-width: 320px) and (max-width: 650px)";
       .main-content{
         .sections{
           h1{
-            font-size: 50px;
+            font-size: $header;
           }
               .large-image,
               .small-images
               {
                 width: 270px;
                 height: 200px;
-                border: solid 5px rgb(13, 34, 63);
+                border: solid 5px $jazzBlue;
               }
 
             .content-block{

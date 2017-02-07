@@ -1,3 +1,5 @@
+/*----- Color and Fonts and Font Sizes ---- */
+/*----- Screen Sizes | Breakpints --- */
 /* ----- Navbar Styles------ */
 .page-container {
   background-image: url("../images/jazz_court.jpg");
@@ -7,9 +9,9 @@
   .page-container .navbar-wrapper-section {
     display: flex;
     flex-direction: column;
-    font-family: 'Bree Serif', serif; }
+    font-family: "Bree Serif", serif; }
     .page-container .navbar-wrapper-section .top-nav {
-      background-color: white;
+      background-color: #fff;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
@@ -96,7 +98,7 @@
 
 /* ------ Main Content Section ------- */
 .main-content {
-  font-family: 'Bree Serif', serif; }
+  font-family: "Bree Serif", serif; }
   .main-content .suites {
     text-align: center;
     text-transform: uppercase;
@@ -123,7 +125,7 @@
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      font-family: 'Bree Serif', serif;
+      font-family: "Bree Serif", serif;
       margin-left: 8.5%;
       margin-right: 8.5%;
       padding: 5%; }
@@ -157,7 +159,7 @@
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      font-family: 'Bree Serif', serif;
+      font-family: "Bree Serif", serif;
       margin-left: 8.5%;
       margin-right: 8.5%;
       padding: 5%; }
@@ -192,7 +194,7 @@
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      font-family: 'Bree Serif', serif;
+      font-family: "Bree Serif", serif;
       margin-left: 8.5%;
       margin-right: 8.5%;
       padding: 5%; }
@@ -207,7 +209,7 @@ footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  font-family: 'Bree Serif', serif; }
+  font-family: "Bree Serif", serif; }
   footer .main-footer {
     display: flex;
     background-color: #0d223f;
@@ -219,22 +221,22 @@ footer {
       height: 100px; }
   footer .bottom-footer {
     align-items: center;
-    background: black;
+    background: #000;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     letter-spacing: 2px;
     font-size: 12px; }
     footer .bottom-footer p {
-      color: white;
+      color: #fff;
       padding-left: 10%;
       padding-right: 10%;
       line-height: 20px;
       text-align: center; }
     footer .bottom-footer .turner-logo {
-      color: white; }
+      color: #fff; }
     footer .bottom-footer .footer-nav {
-      color: white;
+      color: #fff;
       list-style-type: none;
       display: flex;
       justify-content: space-around; }
@@ -242,7 +244,7 @@ footer {
         padding-left: 20px;
         list-style-type: none; }
         footer .bottom-footer .footer-nav .f-nav-item a {
-          color: white;
+          color: #fff;
           text-decoration: none; }
         footer .bottom-footer .footer-nav .f-nav-item :hover {
           color: #F9A11E; }

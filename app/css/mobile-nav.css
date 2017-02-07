@@ -1,8 +1,10 @@
+/*----- Color and Fonts and Font Sizes ---- */
+/*----- Screen Sizes | Breakpints --- */
 @media (min-width: 320px) and (max-width: 650px) {
   .page-container .navbar-wrapper-section .top-nav {
     display: none; }
   .page-container .navbar-wrapper-section .main-nav {
-    border: solid 5px white; }
+    border: solid 5px #fff; }
     .page-container .navbar-wrapper-section .main-nav .snap-nav-container {
       display: flex;
       align-items: center;
@@ -37,7 +39,7 @@
         list-style-type: none;
         line-height: 5; }
   .page-container .main-content .sections h1 {
-    font-size: 50px; }
+    font-size: 60px; }
   .page-container .main-content .sections .large-image,
   .page-container .main-content .sections .small-images {
     width: 270px;
